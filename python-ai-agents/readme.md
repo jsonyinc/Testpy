@@ -3,11 +3,11 @@
 
 
 ## 사전 준비
-1. [OpenAI 키 발급받기](https://github.com/dabidstudio/dabidstudio_guides/blob/main/get-openai-api-key.md)
+1. [Gemini AI API키 발급받기](https://console.cloud.google.com/apis/credentials?inv=1&invt=Abrtqw&project=elite-cascade-452009-h3)
 2. [파이썬 가상환경 설정](https://github.com/dabidstudio/dabidstudio_guides/blob/main/python-set-venv.md)
 3. 패키지 설치
 
 
 ```bash
-pip install openai
+pip install -q -U google-generativeai
 ```
