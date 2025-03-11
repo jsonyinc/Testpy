@@ -14,7 +14,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 # 3. LLM 호출 함수 (동기 방식)
-def llm_call(prompt: str, model_name: str = "ggemini-2.0-flash") -> str:
+def llm_call(prompt: str, model_name: str = "gemini-2.0-flash") -> str:
     """
     Gemini Pro 모델을 호출하여 텍스트를 생성하는 동기 함수입니다.
 
